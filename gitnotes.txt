@@ -1,0 +1,91 @@
+#GIT:-
+#ALL COMMANDS LIST:-
+1)shows the installed git version
+->git -V
+2)print the current path
+->pwd
+3)move back one directory
+->cd ..
+4)goto inside mentioned directory
+->cd filename
+5)list the file and folder avail in the current directory
+->ls
+6)to create a new directory
+->mkdir directoryname
+7)to delete a directory
+->rmdir directoryname
+8)to create a new file
+->touch filename
+9)to open a file in vi editor
+->vi filename
+10)display contents of file
+->cat filename
+11)to clear the terminal screen
+->clear
+12)to closes the terminal screen
+->exit
+13)to create/initialize a new repository
+->git init 
+14)to show the current status of directory
+->git status
+15)to add a file in stage
+->git add filename
+16)to commit the file with message
+->git commit -m "message write here"
+17)to show the diff of untracked file
+->git diff filename
+18)to show the diff of staged file
+->git diff --staged filename
+19)to display the commit history
+->git log
+20)to display short history of commit
+->git log -oneline
+21)to show diff bet 2 commmits
+->git diff commitid1..commitid2
+22)to restore a file to previous stage (from untracked)
+->git restore filename
+23)to restore changes in previous stage (from staged)
+->git restore --staged filename
+24)temporarily save changes to stash
+->git stash 
+25)restore stash file in working
+->git stash pop
+26)display the changes in latest stash
+->git stash show 
+27)list all stash changes
+->git stash list 
+28)show details and content of commit
+->git show
+29)revret a commit with message and its make history
+->git revert head -m "message write here"
+30)reset to mentioned commit and delete above all commmits
+->git reset commitid
+31)to add remote repository to origin
+->git remote add origin URL
+32)to removes the repository from origin
+->git remote remove origin 
+33)rename current branch to main
+->git branch -m main
+34)to push the branch to remote directory
+->git push origin main
+35)to show the remote urls
+->git remote -v
+36)to fetch and merge changes from a remote url
+->git pull URL
+37)clones a remote repository to our system
+->git clone URL
+38)to create a new branch
+->git branch branchname
+39)to switches to specific branch
+->git checkout branchname
+40)create and switch to new branch
+->git checkout -b branchname
+41)to push a branch into remote branch repository
+->git push origin branchname
+42)to delete a branch if file is merged
+->git branch -d branchname
+43)to deleted a brach forcefully
+->git branch -D branchname
+44)to delete a remote branch
+->git push origin --delete branchname
+
