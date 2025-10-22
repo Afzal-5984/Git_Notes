@@ -8,7 +8,7 @@
 ->cd ..
 4)goto inside mentioned directory
 ->cd filename
-5)list the file and folder avail in the current directory
+5)list the file and folder available in the current directory
 ->ls
 6)to create a new directory
 ->mkdir directoryname
@@ -32,15 +32,15 @@
 ->git add filename
 16)to commit the file with message
 ->git commit -m "message write here"
-17)to show the diff of untracked file
+17)to show the diffrence of untracked file
 ->git diff filename
-18)to show the diff of staged file
+18)to show the diffrence of staged file
 ->git diff --staged filename
 19)to display the commit history
 ->git log
 20)to display short history of commit
 ->git log -oneline
-21)to show diff bet 2 commmits
+21)to show diff between 2 commmits
 ->git diff commitid1..commitid2
 22)to restore a file to previous stage (from untracked)
 ->git restore filename
@@ -84,8 +84,9 @@
 ->git push origin branchname
 42)to delete a branch if file is merged
 ->git branch -d branchname
-43)to deleted a brach forcefully
+43)to deleted a branch forcefully
 ->git branch -D branchname
 44)to delete a remote branch
 ->git push origin --delete branchname
+
 
